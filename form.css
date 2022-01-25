@@ -1,0 +1,79 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  }
+
+body {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  min-height:100vh;
+  margin:0;
+  }
+  
+#main-container {
+  background-color: lightgrey;
+  overflow: hidden;
+  border-radius:5px;
+  width:400px;
+  max-width:100%;
+  }
+
+.header {
+  background-color: lightblue;
+  border-bottom: 1px solid black;
+  padding:20px 40px;
+  }
+  
+.header h2 {
+  margin: 0 auto;
+  }
+  
+
+#my-form {
+  padding:30px 40px;
+  }
+  
+#my-form > div {
+  margin-bottom:10px;
+  padding-bottom:20px;
+  position: relative;
+  }
+  
+#my-form label {
+  display: inline-block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  }
+  
+#my-form input {
+  border: 1px solid black;
+  border-radius:4px;
+  width:100%;
+  display:block;
+  padding:10px;
+  font-size:14px;
+  }
+  
+form #sbmt-button {
+  background-color: lightblue;
+  color: black;
+  font-weight:bold;
+  border: 2px solid black;
+  display:block;
+  width:100%;
+  padding:10px;
+  font-size:16px;
+  border-radius:4px;
+    
+  }
+  
+
+.output {
+  font-size: 18px;
+  display: block;
+  justify-content: center;
+}
+
