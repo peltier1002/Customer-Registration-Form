@@ -14,8 +14,7 @@ function Person(firstName, lastName, phoneNumber, emailAddress) {
 };
 
 function myFunction(e) {
-    //prevent the from being submitted without input
-    e.preventDefault;
+
     //create a new user and add the values of the form feild to the properties of the object 
     const newUser = new Person(firstName.value, lastName.value, phoneNumber.value, emailAddress.value);
     //create a thank you message and assign it to a variable
@@ -31,6 +30,7 @@ function myFunction(e) {
     p.appendChild(document.createTextNode(inputs));
     //add the new p to dom 
     form.appendChild(p); 
+    e.preventDefault;
 };
 
 

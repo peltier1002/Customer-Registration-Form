@@ -73,7 +73,7 @@ form #sbmt-button {
 
 .output {
   font-size: 18px;
-  display: block;
+  display:flex;
   justify-content: center;
+   
 }
-
